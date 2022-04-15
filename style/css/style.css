@@ -23,6 +23,13 @@ body{
     color: var(--text-color);
 }
 
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+    max-width: 968px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 /* ========================== header and nav =================*/
 .nav__header{
     display: flex;

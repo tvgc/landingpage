@@ -1,11 +1,50 @@
 /* ========================== google fonts ====================== */
 
 
-/* ========================== variables ====================== *
+/* ========================== variables ====================== */
+:root{
+            /* ================== colors ============ */
+            --primere-color:   #22133D;
+            --body-color: #070914;
+            --text-color: #fff;
+    }
 
+/* ========================== resets ====================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
 
+body{
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
 
-/* ========================== class reusables ====================== *
+/* ========================== header and nav =================*/
+.nav__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.nav__menu{
+    margin-left: 400px;
+}
+.nav__list{
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
 
+.header__button{
+    width: 150px;
+    text-align: center;
+    border: 2px solid  #9C27B0 ;
+    padding: 5px;
+    border-radius: 8px;
+}
 
-/* ========================== header and nav ====================== *
